@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Return &amp; Refund Policy — MedexBand</title>
+<meta name="description" content="MedexBand Return and Refund Policy. 30-day satisfaction guarantee, 12-month warranty, and hassle-free returns.">
+<meta name="theme-color" content="#0a0d14">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Outfit:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after { margin:0; padding:0; box-sizing:border-box }
+:root {
+  --ink: #0a0d14;
+  --white: #ffffff;
+  --blue: #1a4dff;
+  --green: #16a34a;
+  --text-primary: #0a0d14;
+  --text-secondary: #4b5470;
+  --text-muted: #8b93ac;
+  --border-light: rgba(0,0,0,0.08);
+  --max-w: 1160px;
+}
+html { scroll-behavior: smooth; overflow-x: hidden }
+body { font-family: "Outfit", sans-serif; background: var(--white); color: var(--text-primary); line-height: 1.6; -webkit-font-smoothing: antialiased }
+a { text-decoration: none; color: inherit }
+
+/* ── NAV ── */
+#nav {
+  position: fixed; top: 0; left: 0; right: 0; z-index: 9000;
+  height: 64px;
+  background: rgba(10,13,20,0.96);
+  backdrop-filter: blur(20px);
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+  display: flex; align-items: center; padding: 0 48px; gap: 32px;
+}
+.nav-brand { display: flex; align-items: center; gap: 9px; text-decoration: none }
+.nav-logo { width: 28px; height: 28px; border-radius: 7px; background: var(--blue); display: flex; align-items: center; justify-content: center }
+.nav-logo svg { width: 15px; height: 15px }
+.nav-brand-name { font-weight: 700; font-size: 15px; color: #fff }
+.nav-spacer { flex: 1 }
+.nav-back { display: inline-flex; align-items: center; gap: 7px; font-size: 13px; font-weight: 600; color: rgba(255,255,255,0.55); transition: color 0.15s }
+.nav-back:hover { color: #fff }
+.nav-back svg { width: 14px; height: 14px }
+.nav-cta { background: var(--blue); color: #fff; border: none; padding: 9px 20px; border-radius: 8px; font-size: 13px; font-weight: 700; font-family: inherit; cursor: pointer; transition: all 0.15s }
+.nav-cta:hover { background: #1240e0 }
+
+/* ── HERO ── */
+.page-hero {
+  background: linear-gradient(160deg, #0a0d14 0%, #0d1635 60%, #0a0d14 100%);
+  padding: 120px 48px 72px;
+  position: relative; overflow: hidden;
+}
+.page-hero::before {
+  content: ""; position: absolute; inset: 0;
+  background: radial-gradient(ellipse 60% 80% at 50% 0%, rgba(26,77,255,0.18), transparent 65%);
+  pointer-events: none;
+}
+.page-hero-inner { max-width: 800px; margin: 0 auto; position: relative }
+.page-hero-tag {
+  display: inline-flex; align-items: center; gap: 7px;
+  background: rgba(26,77,255,0.12); border: 1px solid rgba(26,77,255,0.35);
+  color: rgba(255,255,255,0.8); padding: 5px 14px; border-radius: 100px;
+  font-family: "JetBrains Mono", monospace; font-size: 10px;
+  font-weight: 600; letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 20px;
+}
+.page-hero h1 { font-family: "Inter", sans-serif; font-size: clamp(36px, 5vw, 56px); font-weight: 800; letter-spacing: -0.03em; color: #fff; line-height: 1.05; margin-bottom: 14px }
+.page-hero-meta { font-family: "JetBrains Mono", monospace; font-size: 12px; color: rgba(255,255,255,0.35); letter-spacing: 0.5px }
+
+/* ── QUICK SUMMARY CARDS ── */
+.summary-cards {
+  display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px;
+  margin-bottom: 52px;
+}
+.summary-card {
+  background: #f0f7ff; border: 1.5px solid rgba(26,77,255,0.15);
+  border-radius: 14px; padding: 22px 20px; text-align: center;
+}
+.summary-card-icon { font-size: 28px; margin-bottom: 10px; line-height: 1 }
+.summary-card-title { font-weight: 800; font-size: 17px; color: var(--text-primary); margin-bottom: 4px }
+.summary-card-sub { font-size: 13px; color: var(--text-muted) }
+
+/* ── COMMITMENT BOX ── */
+.commitment-box {
+  background: #f0fdf4; border: 2px solid #86efac;
+  border-radius: 14px; padding: 24px 28px; margin-bottom: 48px;
+  display: flex; gap: 16px; align-items: flex-start;
+}
+.commitment-icon { font-size: 24px; flex-shrink: 0; margin-top: 2px; line-height: 1 }
+.commitment-title { font-weight: 800; color: #15803d; margin-bottom: 6px; font-size: 16px }
+.commitment-body { color: #166534; font-size: 14px; line-height: 1.7 }
+
+/* ── CONTENT ── */
+.page-content { max-width: 800px; margin: 0 auto; padding: 64px 48px 96px }
+
+.policy-section { margin-bottom: 44px }
+.policy-section h2 { font-family: "Inter", sans-serif; font-size: 20px; font-weight: 800; color: var(--text-primary); margin-bottom: 12px; letter-spacing: -0.02em }
+.policy-section p { font-size: 15.5px; color: var(--text-secondary); line-height: 1.8 }
+.policy-section p + p { margin-top: 12px }
+.policy-section a { color: var(--blue); text-decoration: underline }
+.policy-divider { height: 1px; background: var(--border-light); margin: 44px 0 }
+
+/* ── FOOTER ── */
+#footer { background: #040610; padding: 56px 48px 36px; border-top: 1px solid rgba(255,255,255,0.05) }
+.footer-grid { max-width: var(--max-w); margin: 0 auto 40px; display: grid; grid-template-columns: 1.6fr 1fr 1fr 1fr; gap: 40px }
+.f-brand { display: flex; align-items: center; gap: 9px; margin-bottom: 12px }
+.f-brand-name { font-weight: 700; font-size: 13.5px; color: #fff }
+.f-desc { font-size: 12.5px; color: rgba(255,255,255,0.45); line-height: 1.7; max-width: 220px }
+.f-col-h { font-family: "JetBrains Mono", monospace; font-size: 9px; font-weight: 500; letter-spacing: 2px; color: rgba(255,255,255,0.2); margin-bottom: 14px; text-transform: uppercase }
+.f-lnk { display: block; font-size: 12.5px; color: rgba(255,255,255,0.5); padding: 4px 0; transition: color 0.15s }
+.f-lnk:hover { color: rgba(255,255,255,0.7) }
+.f-bottom { max-width: var(--max-w); margin: 0 auto; display: flex; justify-content: space-between; align-items: center; padding-top: 24px; border-top: 1px solid rgba(255,255,255,0.04) }
+.f-copy { font-size: 11.5px; color: rgba(255,255,255,0.35) }
+.f-badges { display: flex; gap: 6px }
+.f-badge { background: rgba(255,255,255,0.04); color: rgba(255,255,255,0.2); font-family: "JetBrains Mono", monospace; font-size: 9px; font-weight: 500; padding: 4px 9px; border-radius: 4px; border: 1px solid rgba(255,255,255,0.06); letter-spacing: 0.5px }
+
+/* ── RESPONSIVE ── */
+@media(max-width: 768px) {
+  #nav { padding: 0 18px; height: 58px }
+  .page-hero { padding: 100px 20px 56px }
+  .page-content { padding: 40px 20px 72px }
+  .summary-cards { grid-template-columns: 1fr }
+  .footer-grid { grid-template-columns: 1fr 1fr; gap: 28px }
+  .f-bottom { flex-direction: column; gap: 10px; text-align: center }
+  #footer { padding: 44px 18px 24px }
+  .commitment-box { flex-direction: column; gap: 10px }
+}
+@media(max-width: 480px) {
+  .footer-grid { grid-template-columns: 1fr }
+}
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav id="nav">
+  <a class="nav-brand" href="index.html">
+    <div class="nav-logo">
+      <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M12 2L3 7v5c0 5.25 3.75 10.15 9 11.25C17.25 22.15 21 17.25 21 12V7z"/>
+        <path d="M9 12l2 2 4-4"/>
+      </svg>
+    </div>
+    <span class="nav-brand-name">MedexBand</span>
+  </a>
+  <div class="nav-spacer"></div>
+  <a class="nav-back" href="index.html">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+    Back to Home
+  </a>
+  <button class="nav-cta" onclick="window.location.href='purchase.html'">Pre-Order Now</button>
+</nav>
+
+<!-- HERO -->
+<div class="page-hero">
+  <div class="page-hero-inner">
+    <div class="page-hero-tag">Legal</div>
+    <h1>Return &amp; Refund Policy</h1>
+    <p class="page-hero-meta">Effective Date: January 1, 2026 &nbsp;·&nbsp; Last Updated: April 2026</p>
+  </div>
+</div>
+
+<!-- CONTENT -->
+<div class="page-content">
+
+  <!-- QUICK SUMMARY -->
+  <div class="summary-cards">
+    <div class="summary-card">
+      <div class="summary-card-icon">📦</div>
+      <div class="summary-card-title">30-Day Returns</div>
+      <div class="summary-card-sub">Full refund on hardware, no questions asked</div>
+    </div>
+    <div class="summary-card">
+      <div class="summary-card-icon">🛡️</div>
+      <div class="summary-card-title">12-Month Warranty</div>
+      <div class="summary-card-sub">Free replacement for defects &amp; damage</div>
+    </div>
+    <div class="summary-card">
+      <div class="summary-card-icon">✉️</div>
+      <div class="summary-card-title">Free Return Shipping</div>
+      <div class="summary-card-sub">We send you a prepaid label</div>
+    </div>
+  </div>
+
+  <!-- COMMITMENT BOX -->
+  <div class="commitment-box">
+    <div class="commitment-icon">💚</div>
+    <div>
+      <p class="commitment-title">Our Commitment to You</p>
+      <p class="commitment-body">We stand behind MedexBand 100%. If you're not satisfied for any reason, we'll make it right — no hassle, no runaround. Your trust matters more than any single sale.</p>
+    </div>
+  </div>
+
+  <!-- SECTION 1 -->
+  <div class="policy-section">
+    <h2>30-Day Satisfaction Guarantee</h2>
+    <p>If you are not completely satisfied with your MedexBand hardware purchase, you may return it within <strong>30 days</strong> of delivery for a full refund of the purchase price (excluding original shipping charges).</p>
+    <p>Items must be returned in their original packaging and in good condition. Personalized or engraved items are not eligible for return unless they arrive defective or damaged.</p>
+  </div>
+
+  <div class="policy-divider"></div>
+
+  <!-- SECTION 2 -->
+  <div class="policy-section">
+    <h2>Pre-Orders</h2>
+    <p>Pre-order payments may be cancelled and fully refunded at any time before your order ships. Once a shipping confirmation has been sent, the standard 30-day return window applies.</p>
+    <p>To cancel a pre-order, email <a href="mailto:support@medexband.com">support@medexband.com</a> with your order number.</p>
+  </div>
+
+  <div class="policy-divider"></div>
+
+  <!-- SECTION 3 -->
+  <div class="policy-section">
+    <h2>Defective or Damaged Items</h2>
+    <p>If your MedexBand arrives defective, damaged in transit, or stops functioning within the first <strong>12 months</strong> of normal use, we will replace it at no cost to you.</p>
+    <p>Contact us at <a href="mailto:support@medexband.com">support@medexband.com</a> with your order number and a brief description (and photo if applicable) of the issue. We will respond within 2 business days.</p>
+  </div>
+
+  <div class="policy-divider"></div>
+
+  <!-- SECTION 4 -->
+  <div class="policy-section">
+    <h2>Digital Profile Subscriptions</h2>
+    <p>If your MedexBand plan includes a recurring profile subscription, you may cancel at any time through your account settings. Cancellations take effect at the end of the current billing period — we do not provide partial-month refunds for subscription fees.</p>
+    <p>If you experience a billing error, contact us and we will resolve it promptly.</p>
+  </div>
+
+  <div class="policy-divider"></div>
+
+  <!-- SECTION 5 -->
+  <div class="policy-section">
+    <h2>How to Initiate a Return</h2>
+    <p>To start a return, email <a href="mailto:support@medexband.com">support@medexband.com</a> with your order number and reason for return. We will provide a prepaid return shipping label within 2 business days.</p>
+    <p>Refunds are issued to the original payment method within 5–10 business days of receiving your returned item.</p>
+  </div>
+
+  <div class="policy-divider"></div>
+
+  <!-- SECTION 6 -->
+  <div class="policy-section">
+    <h2>Exceptions &amp; Non-Returnable Items</h2>
+    <p>The following items are not eligible for return:</p>
+    <p>
+      (1) Items damaged due to misuse, accidents, or unauthorized modifications<br>
+      (2) Personalized or engraved items, unless they arrive defective<br>
+      (3) Items returned more than 30 days after delivery
+    </p>
+    <p>MedexBand reserves the right to refuse returns that do not meet these conditions.</p>
+  </div>
+
+  <div class="policy-divider"></div>
+
+  <!-- SECTION 7 -->
+  <div class="policy-section">
+    <h2>Questions?</h2>
+    <p>We're here to help. Reach out anytime at <a href="mailto:support@medexband.com">support@medexband.com</a> and our team will get back to you within one business day.</p>
+  </div>
+
+</div>
+
+<!-- FOOTER -->
+<footer id="footer">
+  <div class="footer-grid">
+    <div>
+      <div class="f-brand">
+        <div style="width:28px;height:28px;border-radius:6px;background:var(--blue);display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L3 7v5c0 5.25 3.75 10.15 9 11.25C17.25 22.15 21 17.25 21 12V7z"/></svg>
+        </div>
+        <span class="f-brand-name">MedexBand</span>
+      </div>
+      <p class="f-desc">The ultimate emergency medical ID system. Your most critical health information, instantly accessible when seconds count.</p>
+    </div>
+    <div>
+      <div class="f-col-h">Product</div>
+      <a class="f-lnk" href="purchase.html">Pre-Order Now</a>
+      <a class="f-lnk" href="index.html#features">Features</a>
+      <a class="f-lnk" href="index.html#pricing">Pricing</a>
+    </div>
+    <div>
+      <div class="f-col-h">Support</div>
+      <a class="f-lnk" href="index.html#about">About Us</a>
+      <a class="f-lnk" href="mailto:support@medexband.com">Help Center</a>
+      <a class="f-lnk" href="mailto:support@medexband.com">Contact Us</a>
+      <a class="f-lnk" href="mailto:ems@medexband.com">EMS Training</a>
+    </div>
+    <div>
+      <div class="f-col-h">Legal</div>
+      <a class="f-lnk" href="privacy.html">Privacy Policy</a>
+      <a class="f-lnk" href="returns.html">Return Policy</a>
+      <a class="f-lnk" href="terms.html">Terms of Service</a>
+    </div>
+  </div>
+  <div class="f-bottom">
+    <span class="f-copy">© 2026 MedexBand. All Rights Reserved.</span>
+    <div class="f-badges">
+      <span class="f-badge">256-bit AES</span>
+      <span class="f-badge">SOC 2 Type II</span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
